@@ -87,6 +87,6 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://fwax.net)
-- GitHub [@your-username](https://https://github.com/fwax-pro)
-- Twitter [@your-twitter](https://twitter.com/mr_fwax)
+- Website [fwax.net](https://fwax.net)
+- GitHub [@fwax-pro](https://https://github.com/fwax-pro)
+- Twitter [@mr_fwax](https://twitter.com/mr_fwax)
