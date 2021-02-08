@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
+.btn {
+    font-family: 'Noto Sans JP', 'sans-serif';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20,27px;
+
+    background-color: #E0E0E0;
+    border: transparent;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+    color: #3F3F3F;
+    border-radius: 6px;
+    width: 81px;
+    height: 36px;
+
+    &:focus, &:hover {
+        background-color: #AEAEAE;
+    }
+
+    &:disabled {
+        color: #9E9E9E;
+    }
+}
+
+.btn.text,
+.btn.outline {
+    color: #3D5AFE;
+    background: transparent;
+    border: 1px solid #3D5AFE;
+
+    &:hover, &:focus {
+        background: rgba(41, 98, 255, 0.1);
+    }
+
+    
+    &:disabled {
+        color: #9E9E9E;
+    }
+}
+
+.btn.text {
+    border: none;
+}
+
+.btn.disableShadow {
+    box-shadow: none;
+    background: #2962FF;
+    color: white;
+}
+
+.btn.default {
+    background: #E0E0E0;
+    color: #3F3F3F;
+
+    &:focus, &:hover {
+        background: #AEAEAE;
+    }
+}
+
+.btn.primary {
+    background: #2962FF;
+    color: white;
+
+    &:focus, &:hover {
+        background: #0039CB;
+    }
+}
+
+.btn.secondary {
+    background: #455A64;
+    color: white;
+
+    &:focus, &:hover {
+        background: #1C313A;
+    }
+}
+
+.btn.danger {
+    background: #D32F2F;
+    color: white;
+
+    &:focus, &:hover {
+        background: #9A0007;
+        ;
+    }
+}
+
+.btn.sm {
+    width: 73px;
+    height: 32px;
+}
+
+.btn.md {
+    width: 81px;
+    height: 36px;
+}
+
+.btn.lg {
+    width: 93px;
+    height: 42px;
+}
